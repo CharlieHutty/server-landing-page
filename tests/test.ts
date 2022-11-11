@@ -5,7 +5,7 @@ test('index page has expected h1', async ({ page }) => {
 	expect(await page.textContent('h1')).toBe('Welcome to SvelteKit');
 });
 
-test('index page has expected p',async ({ page }) => {
+test('index page has expected p', async ({ page }) => {
 	await page.goto('/');
-	expect(await page.textContent('p')).toBe('Hello, world!')
-})
+	expect(await page.textContent('p')).toBe('Hello, world!');
+});
