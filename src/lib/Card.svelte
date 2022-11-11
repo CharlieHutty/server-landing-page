@@ -1,8 +1,8 @@
-<script>
-    let title = 'This is the title';
-    let description = 'Description';
-    let imageUrl = '/book.jpg';
-    let port = 1000;
+<script lang='ts'>
+    export let title: string;
+    export let description: string;
+    export let imageUrl: string;
+    export let port: string;
 </script>
 
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
