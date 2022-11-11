@@ -1,9 +1,7 @@
 <script lang='ts'>
     import Card from '../lib/Card.svelte';
-    import {variables} from '../lib/variables';
 </script>
 
-<p>basePath: {variables.basePath}</p>
 <div class="text-center">
     <h1 class="text-4xl underline pt-8">Welcome to SvelteKit</h1>
     <p class="text-2xl pt-4">Hello, world!</p>
@@ -12,9 +10,9 @@
 
 <div class="pt-4">
     <Card 
-        title = 'Title'
-        description = 'Hello'
-        port = 8080
+        title = 'OpenBooks'
+        description = 'For downloading books'
+        port = 8000
         imageUrl = '/book.jpg'
     />
 </div>
