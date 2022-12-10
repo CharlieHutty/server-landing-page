@@ -10,3 +10,7 @@
 <div class="pt-4">
 	<Card title="OpenBooks" description="For downloading books" port="8000" imageUrl="/book.jpg" />
 </div>
+
+<div class="pt-4">
+	<Card title="HomeBridge" description="Home Automation control" port="8581" imageUrl="/homebridge.png" />
+</div>

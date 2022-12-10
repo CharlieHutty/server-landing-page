@@ -18,6 +18,7 @@
 		<div class="p-8">
 			<div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{port}</div>
 			<a
+				target="_blank"
 				href="{variables.basePath}:{port}"
 				class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">{title}</a
 			>
