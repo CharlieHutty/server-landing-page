@@ -5,7 +5,8 @@ const config: UserConfig = {
 	plugins: [sveltekit({ hot: !process.env.VITEST })],
 	test: {
 		globals: true,
-		environment: 'jsdom'
+		environment: 'jsdom',
+		setupFiles: ["setup-test.js"],
 	}
 };
 
