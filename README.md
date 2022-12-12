@@ -20,10 +20,10 @@ Once you've created a project and installed dependencies with `npm install` (or 
 
 You will need to create a `.env` file.
 Inside of this file you will need to add a base url path
+
 ```
 VITE_BASE_URL='http://your.url.here'
 ```
-
 
 ```bash
 npm run dev
