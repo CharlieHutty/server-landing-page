@@ -12,5 +12,10 @@
 </div>
 
 <div class="pt-4">
-	<Card title="HomeBridge" description="Home Automation control" port="8581" imageUrl="/homebridge.png" />
+	<Card
+		title="HomeBridge"
+		description="Home Automation control"
+		port="8581"
+		imageUrl="/homebridge.png"
+	/>
 </div>
