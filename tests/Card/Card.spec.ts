@@ -1,4 +1,4 @@
-import Card from '/code/server-landing-page/src/lib/Card.svelte';
+import Card from '$lib/Card.svelte';
 
 describe('Pokemon Details', () => {
 	let instance: Card | null = null;
